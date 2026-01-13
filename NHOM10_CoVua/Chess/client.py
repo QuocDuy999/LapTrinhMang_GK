@@ -30,7 +30,6 @@ def load_piece_images():
             PIECES[symbol] = ImageTk.PhotoImage(img)
         except Exception as e:
             print(f"⚠️ Lỗi load {filename}: {e}")
-
 class ChessClient:
     def __init__(self):
         self.root = tk.Tk()
@@ -77,6 +76,7 @@ class ChessClient:
                     self.canvas.create_image(x0, y0, image=PIECES[piece.symbol()], anchor="nw")
 
     def on_click(self, event):
+
         if self.client_color is None:
             return
         if (self.board.turn == chess.WHITE and self.client_color != "white") or \
@@ -140,3 +140,5 @@ class ChessClient:
 
 if __name__ == "__main__":
     ChessClient()
+
+
