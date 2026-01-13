@@ -29,3 +29,4 @@ Giao diện được tạo bằng **Tkinter**, logic cờ sử dụng thư việ
 └── 📘 README.md          # Tài liệu mô tả dự án
 ```
 ---
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/b25a1c66-680a-479b-b90f-b6b5e4cf41c5" />
